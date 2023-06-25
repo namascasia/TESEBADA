@@ -1,0 +1,45 @@
+SELECT
+  PredictProbability([TM_Decision_Tree].[Bike Buyer]),
+  [TM_Decision_Tree].[Bike Buyer],
+  t.[ProspectiveBuyerKey],
+  t.[FirstName],
+  t.[LastName],
+  t.[EmailAddress],
+  t.[AddressLine1],
+  t.[AddressLine2],
+  t.[calcAge]
+From
+  [TM_Decision_Tree]
+PREDICTION JOIN
+  OPENQUERY([Adventure Works DW2008R2],
+    'SELECT
+      [ProspectiveBuyerKey],
+      [FirstName],
+      [LastName],
+      [EmailAddress],
+      [AddressLine1],
+      [AddressLine2],
+      (DATEDIFF(YYYY,[BirthDate],getdate())) AS [calcAge],
+      [MaritalStatus],
+      [Gender],
+      [YearlyIncome],
+      [TotalChildren],
+      [NumberChildrenAtHome],
+      [HouseOwnerFlag],
+      [NumberCarsOwned],
+      [Unknown]
+    FROM
+      [dbo].[ProspectiveBuyer]
+    ') AS t
+ON
+  [TM_Decision_Tree].[Marital Status] = t.[MaritalStatus] AND
+  [TM_Decision_Tree].[Gender] = t.[Gender] AND
+  [TM_Decision_Tree].[Yearly Income] = t.[YearlyIncome] AND
+  [TM_Decision_Tree].[Total Children] = t.[TotalChildren] AND
+  [TM_Decision_Tree].[Number Children At Home] = t.[NumberChildrenAtHome] AND
+  [TM_Decision_Tree].[House Owner Flag] = t.[HouseOwnerFlag] AND
+  [TM_Decision_Tree].[Number Cars Owned] = t.[NumberCarsOwned] AND
+  [TM_Decision_Tree].[Age] = t.[calcAge] AND
+  [TM_Decision_Tree].[Bike Buyer] = t.[Unknown]
+WHERE
+  [TM_Decision_Tree].[Bike Buyer] =1

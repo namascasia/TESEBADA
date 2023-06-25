@@ -1,0 +1,1267 @@
+<NORTHWIND>
+  <CATEGORIES>
+    <CATEGORY>
+      <CATEGORYID>1</CATEGORYID>
+      <CATEGORYNAME>Beverages</CATEGORYNAME>
+    </CATEGORY>
+    <CATEGORY>
+      <CATEGORYID>2</CATEGORYID>
+      <CATEGORYNAME>Condiments</CATEGORYNAME>
+    </CATEGORY>
+    <CATEGORY>
+      <CATEGORYID>3</CATEGORYID>
+      <CATEGORYNAME>Confections</CATEGORYNAME>
+    </CATEGORY>
+    <CATEGORY>
+      <CATEGORYID>4</CATEGORYID>
+      <CATEGORYNAME>Dairy Products</CATEGORYNAME>
+    </CATEGORY>
+    <CATEGORY>
+      <CATEGORYID>5</CATEGORYID>
+      <CATEGORYNAME>Grains/Cereals</CATEGORYNAME>
+    </CATEGORY>
+    <CATEGORY>
+      <CATEGORYID>6</CATEGORYID>
+      <CATEGORYNAME>Meat/Poultry</CATEGORYNAME>
+    </CATEGORY>
+    <CATEGORY>
+      <CATEGORYID>7</CATEGORYID>
+      <CATEGORYNAME>Produce</CATEGORYNAME>
+    </CATEGORY>
+    <CATEGORY>
+      <CATEGORYID>8</CATEGORYID>
+      <CATEGORYNAME>Seafood</CATEGORYNAME>
+    </CATEGORY>
+  </CATEGORIES>
+  <PRODUCTS>
+    <PRODUCT>
+      <ProductID>1</ProductID>
+      <ProductName>Chai</ProductName>
+      <SupplierID>1</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>10 boxes x 20 bags</QuantityPerUnit>
+      <UnitPrice>18.0000</UnitPrice>
+      <UnitsInStock>39</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>10</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>2</ProductID>
+      <ProductName>Chang</ProductName>
+      <SupplierID>1</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>24 - 12 oz bottles</QuantityPerUnit>
+      <UnitPrice>19.0000</UnitPrice>
+      <UnitsInStock>17</UnitsInStock>
+      <UnitsOnOrder>40</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>3</ProductID>
+      <ProductName>Aniseed Syrup</ProductName>
+      <SupplierID>1</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>12 - 550 ml bottles</QuantityPerUnit>
+      <UnitPrice>10.0000</UnitPrice>
+      <UnitsInStock>13</UnitsInStock>
+      <UnitsOnOrder>70</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>4</ProductID>
+      <ProductName>Chef Anton's Cajun Seasoning</ProductName>
+      <SupplierID>2</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>48 - 6 oz jars</QuantityPerUnit>
+      <UnitPrice>22.0000</UnitPrice>
+      <UnitsInStock>53</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>5</ProductID>
+      <ProductName>Chef Anton's Gumbo Mix</ProductName>
+      <SupplierID>2</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>36 boxes</QuantityPerUnit>
+      <UnitPrice>21.3500</UnitPrice>
+      <UnitsInStock>0</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>1</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>6</ProductID>
+      <ProductName>Grandma's Boysenberry Spread</ProductName>
+      <SupplierID>3</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>12 - 8 oz jars</QuantityPerUnit>
+      <UnitPrice>25.0000</UnitPrice>
+      <UnitsInStock>120</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>7</ProductID>
+      <ProductName>Uncle Bob's Organic Dried Pears</ProductName>
+      <SupplierID>3</SupplierID>
+      <CategoryID>7</CategoryID>
+      <QuantityPerUnit>12 - 1 lb pkgs.</QuantityPerUnit>
+      <UnitPrice>30.0000</UnitPrice>
+      <UnitsInStock>15</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>10</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>8</ProductID>
+      <ProductName>Northwoods Cranberry Sauce</ProductName>
+      <SupplierID>3</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>12 - 12 oz jars</QuantityPerUnit>
+      <UnitPrice>40.0000</UnitPrice>
+      <UnitsInStock>6</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>9</ProductID>
+      <ProductName>Mishi Kobe Niku</ProductName>
+      <SupplierID>4</SupplierID>
+      <CategoryID>6</CategoryID>
+      <QuantityPerUnit>18 - 500 g pkgs.</QuantityPerUnit>
+      <UnitPrice>97.0000</UnitPrice>
+      <UnitsInStock>29</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>1</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>10</ProductID>
+      <ProductName>Ikura</ProductName>
+      <SupplierID>4</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>12 - 200 ml jars</QuantityPerUnit>
+      <UnitPrice>31.0000</UnitPrice>
+      <UnitsInStock>31</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>11</ProductID>
+      <ProductName>Queso Cabrales</ProductName>
+      <SupplierID>5</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>1 kg pkg.</QuantityPerUnit>
+      <UnitPrice>21.0000</UnitPrice>
+      <UnitsInStock>22</UnitsInStock>
+      <UnitsOnOrder>30</UnitsOnOrder>
+      <ReorderLevel>30</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>12</ProductID>
+      <ProductName>Queso Manchego La Pastora</ProductName>
+      <SupplierID>5</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>10 - 500 g pkgs.</QuantityPerUnit>
+      <UnitPrice>38.0000</UnitPrice>
+      <UnitsInStock>86</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>13</ProductID>
+      <ProductName>Konbu</ProductName>
+      <SupplierID>6</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>2 kg box</QuantityPerUnit>
+      <UnitPrice>6.0000</UnitPrice>
+      <UnitsInStock>24</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>5</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>14</ProductID>
+      <ProductName>Tofu</ProductName>
+      <SupplierID>6</SupplierID>
+      <CategoryID>7</CategoryID>
+      <QuantityPerUnit>40 - 100 g pkgs.</QuantityPerUnit>
+      <UnitPrice>23.2500</UnitPrice>
+      <UnitsInStock>35</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>15</ProductID>
+      <ProductName>Genen Shouyu</ProductName>
+      <SupplierID>6</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>24 - 250 ml bottles</QuantityPerUnit>
+      <UnitPrice>15.5000</UnitPrice>
+      <UnitsInStock>39</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>5</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>16</ProductID>
+      <ProductName>Pavlova</ProductName>
+      <SupplierID>7</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>32 - 500 g boxes</QuantityPerUnit>
+      <UnitPrice>17.4500</UnitPrice>
+      <UnitsInStock>29</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>10</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>17</ProductID>
+      <ProductName>Alice Mutton</ProductName>
+      <SupplierID>7</SupplierID>
+      <CategoryID>6</CategoryID>
+      <QuantityPerUnit>20 - 1 kg tins</QuantityPerUnit>
+      <UnitPrice>39.0000</UnitPrice>
+      <UnitsInStock>0</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>1</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>18</ProductID>
+      <ProductName>Carnarvon Tigers</ProductName>
+      <SupplierID>7</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>16 kg pkg.</QuantityPerUnit>
+      <UnitPrice>62.5000</UnitPrice>
+      <UnitsInStock>42</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>19</ProductID>
+      <ProductName>Teatime Chocolate Biscuits</ProductName>
+      <SupplierID>8</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>10 boxes x 12 pieces</QuantityPerUnit>
+      <UnitPrice>9.2000</UnitPrice>
+      <UnitsInStock>25</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>5</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>20</ProductID>
+      <ProductName>Sir Rodney's Marmalade</ProductName>
+      <SupplierID>8</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>30 gift boxes</QuantityPerUnit>
+      <UnitPrice>81.0000</UnitPrice>
+      <UnitsInStock>40</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>21</ProductID>
+      <ProductName>Sir Rodney's Scones</ProductName>
+      <SupplierID>8</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>24 pkgs. x 4 pieces</QuantityPerUnit>
+      <UnitPrice>10.0000</UnitPrice>
+      <UnitsInStock>3</UnitsInStock>
+      <UnitsOnOrder>40</UnitsOnOrder>
+      <ReorderLevel>5</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>22</ProductID>
+      <ProductName>Gustaf's Knäckebröd</ProductName>
+      <SupplierID>9</SupplierID>
+      <CategoryID>5</CategoryID>
+      <QuantityPerUnit>24 - 500 g pkgs.</QuantityPerUnit>
+      <UnitPrice>21.0000</UnitPrice>
+      <UnitsInStock>104</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>23</ProductID>
+      <ProductName>Tunnbröd</ProductName>
+      <SupplierID>9</SupplierID>
+      <CategoryID>5</CategoryID>
+      <QuantityPerUnit>12 - 250 g pkgs.</QuantityPerUnit>
+      <UnitPrice>9.0000</UnitPrice>
+      <UnitsInStock>61</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>24</ProductID>
+      <ProductName>Guaraná Fantástica</ProductName>
+      <SupplierID>10</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>12 - 355 ml cans</QuantityPerUnit>
+      <UnitPrice>4.5000</UnitPrice>
+      <UnitsInStock>20</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>1</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>25</ProductID>
+      <ProductName>NuNuCa Nuß-Nougat-Creme</ProductName>
+      <SupplierID>11</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>20 - 450 g glasses</QuantityPerUnit>
+      <UnitPrice>14.0000</UnitPrice>
+      <UnitsInStock>76</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>30</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>26</ProductID>
+      <ProductName>Gumbär Gummibärchen</ProductName>
+      <SupplierID>11</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>100 - 250 g bags</QuantityPerUnit>
+      <UnitPrice>31.2300</UnitPrice>
+      <UnitsInStock>15</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>27</ProductID>
+      <ProductName>Schoggi Schokolade</ProductName>
+      <SupplierID>11</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>100 - 100 g pieces</QuantityPerUnit>
+      <UnitPrice>43.9000</UnitPrice>
+      <UnitsInStock>49</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>30</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>28</ProductID>
+      <ProductName>Rössle Sauerkraut</ProductName>
+      <SupplierID>12</SupplierID>
+      <CategoryID>7</CategoryID>
+      <QuantityPerUnit>25 - 825 g cans</QuantityPerUnit>
+      <UnitPrice>45.6000</UnitPrice>
+      <UnitsInStock>26</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>1</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>29</ProductID>
+      <ProductName>Thüringer Rostbratwurst</ProductName>
+      <SupplierID>12</SupplierID>
+      <CategoryID>6</CategoryID>
+      <QuantityPerUnit>50 bags x 30 sausgs.</QuantityPerUnit>
+      <UnitPrice>123.7900</UnitPrice>
+      <UnitsInStock>0</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>1</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>30</ProductID>
+      <ProductName>Nord-Ost Matjeshering</ProductName>
+      <SupplierID>13</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>10 - 200 g glasses</QuantityPerUnit>
+      <UnitPrice>25.8900</UnitPrice>
+      <UnitsInStock>10</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>31</ProductID>
+      <ProductName>Gorgonzola Telino</ProductName>
+      <SupplierID>14</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>12 - 100 g pkgs</QuantityPerUnit>
+      <UnitPrice>12.5000</UnitPrice>
+      <UnitsInStock>0</UnitsInStock>
+      <UnitsOnOrder>70</UnitsOnOrder>
+      <ReorderLevel>20</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>32</ProductID>
+      <ProductName>Mascarpone Fabioli</ProductName>
+      <SupplierID>14</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>24 - 200 g pkgs.</QuantityPerUnit>
+      <UnitPrice>32.0000</UnitPrice>
+      <UnitsInStock>9</UnitsInStock>
+      <UnitsOnOrder>40</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>33</ProductID>
+      <ProductName>Geitost</ProductName>
+      <SupplierID>15</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>500 g</QuantityPerUnit>
+      <UnitPrice>2.5000</UnitPrice>
+      <UnitsInStock>112</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>20</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>34</ProductID>
+      <ProductName>Sasquatch Ale</ProductName>
+      <SupplierID>16</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>24 - 12 oz bottles</QuantityPerUnit>
+      <UnitPrice>14.0000</UnitPrice>
+      <UnitsInStock>111</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>35</ProductID>
+      <ProductName>Steeleye Stout</ProductName>
+      <SupplierID>16</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>24 - 12 oz bottles</QuantityPerUnit>
+      <UnitPrice>18.0000</UnitPrice>
+      <UnitsInStock>20</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>36</ProductID>
+      <ProductName>Inlagd Sill</ProductName>
+      <SupplierID>17</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>24 - 250 g  jars</QuantityPerUnit>
+      <UnitPrice>19.0000</UnitPrice>
+      <UnitsInStock>112</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>20</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>37</ProductID>
+      <ProductName>Gravad lax</ProductName>
+      <SupplierID>17</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>12 - 500 g pkgs.</QuantityPerUnit>
+      <UnitPrice>26.0000</UnitPrice>
+      <UnitsInStock>11</UnitsInStock>
+      <UnitsOnOrder>50</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>38</ProductID>
+      <ProductName>Côte de Blaye</ProductName>
+      <SupplierID>18</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>12 - 75 cl bottles</QuantityPerUnit>
+      <UnitPrice>263.5000</UnitPrice>
+      <UnitsInStock>17</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>39</ProductID>
+      <ProductName>Chartreuse verte</ProductName>
+      <SupplierID>18</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>750 cc per bottle</QuantityPerUnit>
+      <UnitPrice>18.0000</UnitPrice>
+      <UnitsInStock>69</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>5</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>40</ProductID>
+      <ProductName>Boston Crab Meat</ProductName>
+      <SupplierID>19</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>24 - 4 oz tins</QuantityPerUnit>
+      <UnitPrice>18.4000</UnitPrice>
+      <UnitsInStock>123</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>30</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>41</ProductID>
+      <ProductName>Jack's New England Clam Chowder</ProductName>
+      <SupplierID>19</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>12 - 12 oz cans</QuantityPerUnit>
+      <UnitPrice>9.6500</UnitPrice>
+      <UnitsInStock>85</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>10</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>42</ProductID>
+      <ProductName>Singaporean Hokkien Fried Mee</ProductName>
+      <SupplierID>20</SupplierID>
+      <CategoryID>5</CategoryID>
+      <QuantityPerUnit>32 - 1 kg pkgs.</QuantityPerUnit>
+      <UnitPrice>14.0000</UnitPrice>
+      <UnitsInStock>26</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>1</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>43</ProductID>
+      <ProductName>Ipoh Coffee</ProductName>
+      <SupplierID>20</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>16 - 500 g tins</QuantityPerUnit>
+      <UnitPrice>46.0000</UnitPrice>
+      <UnitsInStock>17</UnitsInStock>
+      <UnitsOnOrder>10</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>44</ProductID>
+      <ProductName>Gula Malacca</ProductName>
+      <SupplierID>20</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>20 - 2 kg bags</QuantityPerUnit>
+      <UnitPrice>19.4500</UnitPrice>
+      <UnitsInStock>27</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>45</ProductID>
+      <ProductName>Rogede sild</ProductName>
+      <SupplierID>21</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>1k pkg.</QuantityPerUnit>
+      <UnitPrice>9.5000</UnitPrice>
+      <UnitsInStock>5</UnitsInStock>
+      <UnitsOnOrder>70</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>46</ProductID>
+      <ProductName>Spegesild</ProductName>
+      <SupplierID>21</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>4 - 450 g glasses</QuantityPerUnit>
+      <UnitPrice>12.0000</UnitPrice>
+      <UnitsInStock>95</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>47</ProductID>
+      <ProductName>Zaanse koeken</ProductName>
+      <SupplierID>22</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>10 - 4 oz boxes</QuantityPerUnit>
+      <UnitPrice>9.5000</UnitPrice>
+      <UnitsInStock>36</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>48</ProductID>
+      <ProductName>Chocolade</ProductName>
+      <SupplierID>22</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>10 pkgs.</QuantityPerUnit>
+      <UnitPrice>12.7500</UnitPrice>
+      <UnitsInStock>15</UnitsInStock>
+      <UnitsOnOrder>70</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>49</ProductID>
+      <ProductName>Maxilaku</ProductName>
+      <SupplierID>23</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>24 - 50 g pkgs.</QuantityPerUnit>
+      <UnitPrice>20.0000</UnitPrice>
+      <UnitsInStock>10</UnitsInStock>
+      <UnitsOnOrder>60</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>50</ProductID>
+      <ProductName>Valkoinen suklaa</ProductName>
+      <SupplierID>23</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>12 - 100 g bars</QuantityPerUnit>
+      <UnitPrice>16.2500</UnitPrice>
+      <UnitsInStock>65</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>30</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>51</ProductID>
+      <ProductName>Manjimup Dried Apples</ProductName>
+      <SupplierID>24</SupplierID>
+      <CategoryID>7</CategoryID>
+      <QuantityPerUnit>50 - 300 g pkgs.</QuantityPerUnit>
+      <UnitPrice>53.0000</UnitPrice>
+      <UnitsInStock>20</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>10</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>52</ProductID>
+      <ProductName>Filo Mix</ProductName>
+      <SupplierID>24</SupplierID>
+      <CategoryID>5</CategoryID>
+      <QuantityPerUnit>16 - 2 kg boxes</QuantityPerUnit>
+      <UnitPrice>7.0000</UnitPrice>
+      <UnitsInStock>38</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>53</ProductID>
+      <ProductName>Perth Pasties</ProductName>
+      <SupplierID>24</SupplierID>
+      <CategoryID>6</CategoryID>
+      <QuantityPerUnit>48 pieces</QuantityPerUnit>
+      <UnitPrice>32.8000</UnitPrice>
+      <UnitsInStock>0</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>1</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>54</ProductID>
+      <ProductName>Tourtière</ProductName>
+      <SupplierID>25</SupplierID>
+      <CategoryID>6</CategoryID>
+      <QuantityPerUnit>16 pies</QuantityPerUnit>
+      <UnitPrice>7.4500</UnitPrice>
+      <UnitsInStock>21</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>10</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>55</ProductID>
+      <ProductName>Pâté chinois</ProductName>
+      <SupplierID>25</SupplierID>
+      <CategoryID>6</CategoryID>
+      <QuantityPerUnit>24 boxes x 2 pies</QuantityPerUnit>
+      <UnitPrice>24.0000</UnitPrice>
+      <UnitsInStock>115</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>20</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>56</ProductID>
+      <ProductName>Gnocchi di nonna Alice</ProductName>
+      <SupplierID>26</SupplierID>
+      <CategoryID>5</CategoryID>
+      <QuantityPerUnit>24 - 250 g pkgs.</QuantityPerUnit>
+      <UnitPrice>38.0000</UnitPrice>
+      <UnitsInStock>21</UnitsInStock>
+      <UnitsOnOrder>10</UnitsOnOrder>
+      <ReorderLevel>30</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>57</ProductID>
+      <ProductName>Ravioli Angelo</ProductName>
+      <SupplierID>26</SupplierID>
+      <CategoryID>5</CategoryID>
+      <QuantityPerUnit>24 - 250 g pkgs.</QuantityPerUnit>
+      <UnitPrice>19.5000</UnitPrice>
+      <UnitsInStock>36</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>20</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>58</ProductID>
+      <ProductName>Escargots de Bourgogne</ProductName>
+      <SupplierID>27</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>24 pieces</QuantityPerUnit>
+      <UnitPrice>13.2500</UnitPrice>
+      <UnitsInStock>62</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>20</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>59</ProductID>
+      <ProductName>Raclette Courdavault</ProductName>
+      <SupplierID>28</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>5 kg pkg.</QuantityPerUnit>
+      <UnitPrice>55.0000</UnitPrice>
+      <UnitsInStock>79</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>60</ProductID>
+      <ProductName>Camembert Pierrot</ProductName>
+      <SupplierID>28</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>15 - 300 g rounds</QuantityPerUnit>
+      <UnitPrice>34.0000</UnitPrice>
+      <UnitsInStock>19</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>61</ProductID>
+      <ProductName>Sirop d'érable</ProductName>
+      <SupplierID>29</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>24 - 500 ml bottles</QuantityPerUnit>
+      <UnitPrice>28.5000</UnitPrice>
+      <UnitsInStock>113</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>62</ProductID>
+      <ProductName>Tarte au sucre</ProductName>
+      <SupplierID>29</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>48 pies</QuantityPerUnit>
+      <UnitPrice>49.3000</UnitPrice>
+      <UnitsInStock>17</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>63</ProductID>
+      <ProductName>Vegie-spread</ProductName>
+      <SupplierID>7</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>15 - 625 g jars</QuantityPerUnit>
+      <UnitPrice>43.9000</UnitPrice>
+      <UnitsInStock>24</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>5</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>64</ProductID>
+      <ProductName>Wimmers gute Semmelknödel</ProductName>
+      <SupplierID>12</SupplierID>
+      <CategoryID>5</CategoryID>
+      <QuantityPerUnit>20 bags x 4 pieces</QuantityPerUnit>
+      <UnitPrice>33.2500</UnitPrice>
+      <UnitsInStock>22</UnitsInStock>
+      <UnitsOnOrder>80</UnitsOnOrder>
+      <ReorderLevel>30</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>65</ProductID>
+      <ProductName>Louisiana Fiery Hot Pepper Sauce</ProductName>
+      <SupplierID>2</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>32 - 8 oz bottles</QuantityPerUnit>
+      <UnitPrice>21.0500</UnitPrice>
+      <UnitsInStock>76</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>66</ProductID>
+      <ProductName>Louisiana Hot Spiced Okra</ProductName>
+      <SupplierID>2</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>24 - 8 oz jars</QuantityPerUnit>
+      <UnitPrice>17.0000</UnitPrice>
+      <UnitsInStock>4</UnitsInStock>
+      <UnitsOnOrder>100</UnitsOnOrder>
+      <ReorderLevel>20</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>67</ProductID>
+      <ProductName>Laughing Lumberjack Lager</ProductName>
+      <SupplierID>16</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>24 - 12 oz bottles</QuantityPerUnit>
+      <UnitPrice>14.0000</UnitPrice>
+      <UnitsInStock>52</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>10</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>68</ProductID>
+      <ProductName>Scottish Longbreads</ProductName>
+      <SupplierID>8</SupplierID>
+      <CategoryID>3</CategoryID>
+      <QuantityPerUnit>10 boxes x 8 pieces</QuantityPerUnit>
+      <UnitPrice>12.5000</UnitPrice>
+      <UnitsInStock>6</UnitsInStock>
+      <UnitsOnOrder>10</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>69</ProductID>
+      <ProductName>Gudbrandsdalsost</ProductName>
+      <SupplierID>15</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>10 kg pkg.</QuantityPerUnit>
+      <UnitPrice>36.0000</UnitPrice>
+      <UnitsInStock>26</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>70</ProductID>
+      <ProductName>Outback Lager</ProductName>
+      <SupplierID>7</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>24 - 355 ml bottles</QuantityPerUnit>
+      <UnitPrice>15.0000</UnitPrice>
+      <UnitsInStock>15</UnitsInStock>
+      <UnitsOnOrder>10</UnitsOnOrder>
+      <ReorderLevel>30</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>71</ProductID>
+      <ProductName>Flotemysost</ProductName>
+      <SupplierID>15</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>10 - 500 g pkgs.</QuantityPerUnit>
+      <UnitPrice>21.5000</UnitPrice>
+      <UnitsInStock>26</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>72</ProductID>
+      <ProductName>Mozzarella di Giovanni</ProductName>
+      <SupplierID>14</SupplierID>
+      <CategoryID>4</CategoryID>
+      <QuantityPerUnit>24 - 200 g pkgs.</QuantityPerUnit>
+      <UnitPrice>34.8000</UnitPrice>
+      <UnitsInStock>14</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>0</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>73</ProductID>
+      <ProductName>Röd Kaviar</ProductName>
+      <SupplierID>17</SupplierID>
+      <CategoryID>8</CategoryID>
+      <QuantityPerUnit>24 - 150 g jars</QuantityPerUnit>
+      <UnitPrice>15.0000</UnitPrice>
+      <UnitsInStock>101</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>5</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>74</ProductID>
+      <ProductName>Longlife Tofu</ProductName>
+      <SupplierID>4</SupplierID>
+      <CategoryID>7</CategoryID>
+      <QuantityPerUnit>5 kg pkg.</QuantityPerUnit>
+      <UnitPrice>10.0000</UnitPrice>
+      <UnitsInStock>4</UnitsInStock>
+      <UnitsOnOrder>20</UnitsOnOrder>
+      <ReorderLevel>5</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>75</ProductID>
+      <ProductName>Rhönbräu Klosterbier</ProductName>
+      <SupplierID>12</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>24 - 0.5 l bottles</QuantityPerUnit>
+      <UnitPrice>7.7500</UnitPrice>
+      <UnitsInStock>125</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>25</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>76</ProductID>
+      <ProductName>Lakkalikööri</ProductName>
+      <SupplierID>23</SupplierID>
+      <CategoryID>1</CategoryID>
+      <QuantityPerUnit>500 ml</QuantityPerUnit>
+      <UnitPrice>18.0000</UnitPrice>
+      <UnitsInStock>57</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>20</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+    <PRODUCT>
+      <ProductID>77</ProductID>
+      <ProductName>Original Frankfurter grüne Soße</ProductName>
+      <SupplierID>12</SupplierID>
+      <CategoryID>2</CategoryID>
+      <QuantityPerUnit>12 boxes</QuantityPerUnit>
+      <UnitPrice>13.0000</UnitPrice>
+      <UnitsInStock>32</UnitsInStock>
+      <UnitsOnOrder>0</UnitsOnOrder>
+      <ReorderLevel>15</ReorderLevel>
+      <Discontinued>0</Discontinued>
+    </PRODUCT>
+  </PRODUCTS>
+  <SUPPLIERS>
+    <SUPPLIER>
+      <SUPPLIERID>1</SUPPLIERID>
+      <COMPANYNAME>Exotic Liquids</COMPANYNAME>
+      <CONTACTNAME>Charlotte Cooper</CONTACTNAME>
+      <CONTACTTITLE>Purchasing Manager</CONTACTTITLE>
+      <ADDRESS>49 Gilbert St.</ADDRESS>
+      <POSTALCODE>EC1 4SD</POSTALCODE>
+      <PHONE>(171) 555-2222</PHONE>
+      <CITYID>3</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>2</SUPPLIERID>
+      <COMPANYNAME>New Orleans Cajun Delights</COMPANYNAME>
+      <CONTACTNAME>Shelley Burke</CONTACTNAME>
+      <CONTACTTITLE>Order Administrator</CONTACTTITLE>
+      <ADDRESS>P.O. Box 78934</ADDRESS>
+      <POSTALCODE>70117</POSTALCODE>
+      <PHONE>(100) 555-4822</PHONE>
+      <CITYID>70</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>3</SUPPLIERID>
+      <COMPANYNAME>Grandma Kelly's Homestead</COMPANYNAME>
+      <CONTACTNAME>Regina Murphy</CONTACTNAME>
+      <CONTACTTITLE>Sales Representative</CONTACTTITLE>
+      <ADDRESS>707 Oxford Rd.</ADDRESS>
+      <POSTALCODE>48104</POSTALCODE>
+      <PHONE>(313) 555-5735</PHONE>
+      <FAX>(313) 555-3349</FAX>
+      <CITYID>71</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>4</SUPPLIERID>
+      <COMPANYNAME>Tokyo Traders</COMPANYNAME>
+      <CONTACTNAME>Yoshi Nagase</CONTACTNAME>
+      <CONTACTTITLE>Marketing Manager</CONTACTTITLE>
+      <ADDRESS>9-8 Sekimai Musashino-shi</ADDRESS>
+      <POSTALCODE>100</POSTALCODE>
+      <PHONE>(03) 3555-5011</PHONE>
+      <CITYID>72</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>5</SUPPLIERID>
+      <COMPANYNAME>Cooperativa de Quesos 'Las Cabras'</COMPANYNAME>
+      <CONTACTNAME>Antonio del Valle Saavedra</CONTACTNAME>
+      <CONTACTTITLE>Export Administrator</CONTACTTITLE>
+      <ADDRESS>Calle del Rosal 4</ADDRESS>
+      <POSTALCODE>33007</POSTALCODE>
+      <PHONE>(98) 598 76 54</PHONE>
+      <CITYID>73</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>6</SUPPLIERID>
+      <COMPANYNAME>Mayumi's</COMPANYNAME>
+      <CONTACTNAME>Mayumi Ohno</CONTACTNAME>
+      <CONTACTTITLE>Marketing Representative</CONTACTTITLE>
+      <ADDRESS>92 Setsuko Chuo-ku</ADDRESS>
+      <POSTALCODE>545</POSTALCODE>
+      <PHONE>(06) 431-7877</PHONE>
+      <CITYID>74</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>7</SUPPLIERID>
+      <COMPANYNAME>Pavlova, Ltd.</COMPANYNAME>
+      <CONTACTNAME>Ian Devling</CONTACTNAME>
+      <CONTACTTITLE>Marketing Manager</CONTACTTITLE>
+      <ADDRESS>74 Rose St. Moonie Ponds</ADDRESS>
+      <POSTALCODE>3058</POSTALCODE>
+      <PHONE>(03) 444-2343</PHONE>
+      <FAX>(03) 444-6588</FAX>
+      <CITYID>75</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>8</SUPPLIERID>
+      <COMPANYNAME>Specialty Biscuits, Ltd.</COMPANYNAME>
+      <CONTACTNAME>Peter Wilson</CONTACTNAME>
+      <CONTACTTITLE>Sales Representative</CONTACTTITLE>
+      <ADDRESS>29 King's Way</ADDRESS>
+      <POSTALCODE>M14 GSD</POSTALCODE>
+      <PHONE>(161) 555-4448</PHONE>
+      <CITYID>76</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>9</SUPPLIERID>
+      <COMPANYNAME>PB Knäckebröd AB</COMPANYNAME>
+      <CONTACTNAME>Lars Peterson</CONTACTNAME>
+      <CONTACTTITLE>Sales Agent</CONTACTTITLE>
+      <ADDRESS>Kaloadagatan 13</ADDRESS>
+      <POSTALCODE>S-345 67</POSTALCODE>
+      <PHONE>031-987 65 43</PHONE>
+      <FAX>031-987 65 91</FAX>
+      <CITYID>77</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>10</SUPPLIERID>
+      <COMPANYNAME>Refrescos Americanas LTDA</COMPANYNAME>
+      <CONTACTNAME>Carlos Diaz</CONTACTNAME>
+      <CONTACTTITLE>Marketing Manager</CONTACTTITLE>
+      <ADDRESS>Av. das Americanas 12.890</ADDRESS>
+      <POSTALCODE>5442</POSTALCODE>
+      <PHONE>(11) 555 4640</PHONE>
+      <CITYID>12</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>11</SUPPLIERID>
+      <COMPANYNAME>Heli Süßwaren GmbH &amp; Co. KG</COMPANYNAME>
+      <CONTACTNAME>Petra Winkler</CONTACTNAME>
+      <CONTACTTITLE>Sales Manager</CONTACTTITLE>
+      <ADDRESS>Tiergartenstraße 5</ADDRESS>
+      <POSTALCODE>10785</POSTALCODE>
+      <PHONE>(010) 9984510</PHONE>
+      <CITYID>1</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>12</SUPPLIERID>
+      <COMPANYNAME>Plutzer Lebensmittelgroßmärkte AG</COMPANYNAME>
+      <CONTACTNAME>Martin Bein</CONTACTNAME>
+      <CONTACTTITLE>International Marketing Mgr.</CONTACTTITLE>
+      <ADDRESS>Bogenallee 51</ADDRESS>
+      <POSTALCODE>60439</POSTALCODE>
+      <PHONE>(069) 992755</PHONE>
+      <CITYID>78</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>13</SUPPLIERID>
+      <COMPANYNAME>Nord-Ost-Fisch Handelsgesellschaft mbH</COMPANYNAME>
+      <CONTACTNAME>Sven Petersen</CONTACTNAME>
+      <CONTACTTITLE>Coordinator Foreign Markets</CONTACTTITLE>
+      <ADDRESS>Frahmredder 112a</ADDRESS>
+      <POSTALCODE>27478</POSTALCODE>
+      <PHONE>(04721) 8713</PHONE>
+      <FAX>(04721) 8714</FAX>
+      <CITYID>79</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>14</SUPPLIERID>
+      <COMPANYNAME>Formaggi Fortini s.r.l.</COMPANYNAME>
+      <CONTACTNAME>Elio Rossi</CONTACTNAME>
+      <CONTACTTITLE>Sales Representative</CONTACTTITLE>
+      <ADDRESS>Viale Dante, 75</ADDRESS>
+      <POSTALCODE>48100</POSTALCODE>
+      <PHONE>(0544) 60323</PHONE>
+      <FAX>(0544) 60603</FAX>
+      <CITYID>80</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>15</SUPPLIERID>
+      <COMPANYNAME>Norske Meierier</COMPANYNAME>
+      <CONTACTNAME>Beate Vileid</CONTACTNAME>
+      <CONTACTTITLE>Marketing Manager</CONTACTTITLE>
+      <ADDRESS>Hatlevegen 5</ADDRESS>
+      <POSTALCODE>1320</POSTALCODE>
+      <PHONE>(0)2-953010</PHONE>
+      <CITYID>81</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>16</SUPPLIERID>
+      <COMPANYNAME>Bigfoot Breweries</COMPANYNAME>
+      <CONTACTNAME>Cheryl Saylor</CONTACTNAME>
+      <CONTACTTITLE>Regional Account Rep.</CONTACTTITLE>
+      <ADDRESS>3400 - 8th Avenue Suite 210</ADDRESS>
+      <POSTALCODE>97101</POSTALCODE>
+      <PHONE>(503) 555-9931</PHONE>
+      <CITYID>82</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>17</SUPPLIERID>
+      <COMPANYNAME>Svensk Sjöföda AB</COMPANYNAME>
+      <CONTACTNAME>Michael Björn</CONTACTNAME>
+      <CONTACTTITLE>Sales Representative</CONTACTTITLE>
+      <ADDRESS>Brovallavägen 231</ADDRESS>
+      <POSTALCODE>S-123 45</POSTALCODE>
+      <PHONE>08-123 45 67</PHONE>
+      <CITYID>83</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>18</SUPPLIERID>
+      <COMPANYNAME>Aux joyeux ecclésiastiques</COMPANYNAME>
+      <CONTACTNAME>Guylène Nodier</CONTACTNAME>
+      <CONTACTTITLE>Sales Manager</CONTACTTITLE>
+      <ADDRESS>203, Rue des Francs-Bourgeois</ADDRESS>
+      <POSTALCODE>75004</POSTALCODE>
+      <PHONE>(1) 03.83.00.68</PHONE>
+      <FAX>(1) 03.83.00.62</FAX>
+      <CITYID>47</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>19</SUPPLIERID>
+      <COMPANYNAME>New England Seafood Cannery</COMPANYNAME>
+      <CONTACTNAME>Robb Merchant</CONTACTNAME>
+      <CONTACTTITLE>Wholesale Account Agent</CONTACTTITLE>
+      <ADDRESS>Order Processing Dept. 2100 Paul Revere Blvd.</ADDRESS>
+      <POSTALCODE>02134</POSTALCODE>
+      <PHONE>(617) 555-3267</PHONE>
+      <FAX>(617) 555-3389</FAX>
+      <CITYID>84</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>20</SUPPLIERID>
+      <COMPANYNAME>Leka Trading</COMPANYNAME>
+      <CONTACTNAME>Chandra Leka</CONTACTNAME>
+      <CONTACTTITLE>Owner</CONTACTTITLE>
+      <ADDRESS>471 Serangoon Loop, Suite #402</ADDRESS>
+      <POSTALCODE>0512</POSTALCODE>
+      <PHONE>555-8787</PHONE>
+      <CITYID>85</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>21</SUPPLIERID>
+      <COMPANYNAME>Lyngbysild</COMPANYNAME>
+      <CONTACTNAME>Niels Petersen</CONTACTNAME>
+      <CONTACTTITLE>Sales Manager</CONTACTTITLE>
+      <ADDRESS>Lyngbysild Fiskebakken 10</ADDRESS>
+      <POSTALCODE>2800</POSTALCODE>
+      <PHONE>43844108</PHONE>
+      <FAX>43844115</FAX>
+      <CITYID>86</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>22</SUPPLIERID>
+      <COMPANYNAME>Zaanse Snoepfabriek</COMPANYNAME>
+      <CONTACTNAME>Dirk Luchte</CONTACTNAME>
+      <CONTACTTITLE>Accounting Manager</CONTACTTITLE>
+      <ADDRESS>Verkoop Rijnweg 22</ADDRESS>
+      <POSTALCODE>9999 ZZ</POSTALCODE>
+      <PHONE>(12345) 1212</PHONE>
+      <FAX>(12345) 1210</FAX>
+      <CITYID>87</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>23</SUPPLIERID>
+      <COMPANYNAME>Karkki Oy</COMPANYNAME>
+      <CONTACTNAME>Anne Heikkonen</CONTACTNAME>
+      <CONTACTTITLE>Product Manager</CONTACTTITLE>
+      <ADDRESS>Valtakatu 12</ADDRESS>
+      <POSTALCODE>53120</POSTALCODE>
+      <PHONE>(953) 10956</PHONE>
+      <CITYID>88</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>24</SUPPLIERID>
+      <COMPANYNAME>G'day, Mate</COMPANYNAME>
+      <CONTACTNAME>Wendy Mackenzie</CONTACTNAME>
+      <CONTACTTITLE>Sales Representative</CONTACTTITLE>
+      <ADDRESS>170 Prince Edward Parade Hunter's Hill</ADDRESS>
+      <POSTALCODE>2042</POSTALCODE>
+      <PHONE>(02) 555-5914</PHONE>
+      <FAX>(02) 555-4873</FAX>
+      <CITYID>89</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>25</SUPPLIERID>
+      <COMPANYNAME>Ma Maison</COMPANYNAME>
+      <CONTACTNAME>Jean-Guy Lauzon</CONTACTNAME>
+      <CONTACTTITLE>Marketing Manager</CONTACTTITLE>
+      <ADDRESS>2960 Rue St. Laurent</ADDRESS>
+      <POSTALCODE>H1J 1C3</POSTALCODE>
+      <PHONE>(514) 555-9022</PHONE>
+      <CITYID>43</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>26</SUPPLIERID>
+      <COMPANYNAME>Pasta Buttini s.r.l.</COMPANYNAME>
+      <CONTACTNAME>Giovanni Giudici</CONTACTNAME>
+      <CONTACTTITLE>Order Administrator</CONTACTTITLE>
+      <ADDRESS>Via dei Gelsomini, 153</ADDRESS>
+      <POSTALCODE>84100</POSTALCODE>
+      <PHONE>(089) 6547665</PHONE>
+      <FAX>(089) 6547667</FAX>
+      <CITYID>90</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>27</SUPPLIERID>
+      <COMPANYNAME>Escargots Nouveaux</COMPANYNAME>
+      <CONTACTNAME>Marie Delamare</CONTACTNAME>
+      <CONTACTTITLE>Sales Manager</CONTACTTITLE>
+      <ADDRESS>22, rue H. Voiron</ADDRESS>
+      <POSTALCODE>71300</POSTALCODE>
+      <PHONE>85.57.00.07</PHONE>
+      <CITYID>91</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>28</SUPPLIERID>
+      <COMPANYNAME>Gai pâturage</COMPANYNAME>
+      <CONTACTNAME>Eliane Noz</CONTACTNAME>
+      <CONTACTTITLE>Sales Representative</CONTACTTITLE>
+      <ADDRESS>Bat. B 3, rue des Alpes</ADDRESS>
+      <POSTALCODE>74000</POSTALCODE>
+      <PHONE>38.76.98.06</PHONE>
+      <FAX>38.76.98.58</FAX>
+      <CITYID>92</CITYID>
+    </SUPPLIER>
+    <SUPPLIER>
+      <SUPPLIERID>29</SUPPLIERID>
+      <COMPANYNAME>Forêts d'érables</COMPANYNAME>
+      <CONTACTNAME>Chantal Goulet</CONTACTNAME>
+      <CONTACTTITLE>Accounting Manager</CONTACTTITLE>
+      <ADDRESS>148 rue Chasseur</ADDRESS>
+      <POSTALCODE>J2S 7S8</POSTALCODE>
+      <PHONE>(514) 555-2955</PHONE>
+      <FAX>(514) 555-2921</FAX>
+      <CITYID>93</CITYID>
+    </SUPPLIER>
+  </SUPPLIERS>
+</NORTHWIND>
